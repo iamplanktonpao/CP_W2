@@ -1,12 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	var name string
-	fmt.Println("the last ")
-	fmt.Println("One Time i can do it")
-	fmt.Scan(&name)
-	fmt.Println(`Welcome to hell` + name)
-
+	fmt.Printf("%t",1=1)
+	fmt.Printf("%T",3.14159)
 }
+
